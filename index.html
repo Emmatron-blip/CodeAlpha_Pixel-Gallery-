@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore a collection of photographs in PixelGallery.">
+  <title>PixelGallery | Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>PixelGallery</h1>
+    <p>A collection of beautiful moments.</p>
+  </header>
+
+  <main class="container">
+    <nav class="filters" aria-label="Filter images by category">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="nature">Nature</button>
+      <button class="filter-btn" data-category="architecture">Architecture</button>
+      <button class="filter-btn" data-category="technology">Technology</button>
+    </nav>
+
+    <section class="gallery" id="gallery" aria-label="Image gallery">
+      <!-- Image cards will be added here -->
+    </section>
+  </main>
+
+<div
+  class="lightbox"
+  id="lightbox"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Image viewer"
+  aria-hidden="true"
+  tabindex="-1"
+>
+  <button class="close-btn" id="closeBtn" aria-label="Close image viewer">
+    &times;
+  </button>
+
+  <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous image">
+    &#10094;
+  </button>
+
+  <figure class="lightbox-content">
+    <img id="lightboxImage" src="" alt="">
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+
+  <button class="nav-btn next-btn" id="nextBtn" aria-label="Next image">
+    &#10095;
+  </button>
+</div>
+
+  <footer>
+    <p>PixelGallery — Explore. Discover. Appreciate.</p>
+  </footer>
+
+</body>
+</html>
