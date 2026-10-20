@@ -45,4 +45,4 @@ CodeAlpha_Pixel-Gallery-/
 This project demonstrates front-end development skills using HTML, CSS, and JavaScript.
 
 ## Author
-CodeAlpha Image Gallery Project
+Emmatron-blip ( Edokobi Chukwuemelieogu Emmanuel)
